@@ -8,6 +8,18 @@ This repository contains a Python script for predicting the presence of **Metabo
 - **Hyperparameter Tuning:** Uses `GridSearchCV` and `RandomizedSearchCV` to optimize model performance.
 - **Evaluation Metrics:** Reports accuracy, precision, recall, and F1-score for each model.
 
+## Tools and Technologies
+- **Programming Language:** Python
+- **Libraries:** Pandas, NumPy, Scikit-learn
+- **Data Handling:** CSV file input/output
+- **Model Evaluation:** Classification metrics (accuracy, precision, recall, F1-score)
+
+## Dataset
+The dataset used in this project contains clinical and laboratory measurements such as:
+- Age, Sex, Marital Status, Income, Race
+- Waist Circumference, BMI, Albuminuria, Blood Glucose, HDL, Triglycerides
+- Target Variable: Metabolic Syndrome (1 = Present, 0 = Absent)
+
 ## How to Use
 1. Clone this repository:
    ```bash
