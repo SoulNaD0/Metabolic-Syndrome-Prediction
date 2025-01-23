@@ -1,21 +1,26 @@
-# Metabolic Syndrome Prediction
+# Metabolic Syndrome Prediction Using Machine Learning
 
-## Overview
-This project predicts the presence of metabolic syndrome using clinical and laboratory data. It uses machine learning models such as KNN, Decision Tree, Logistic Regression, Random Forest, and SVC.
+This repository contains a Python script for predicting the presence of **Metabolic Syndrome** using clinical and laboratory data. Metabolic Syndrome is a complex medical condition associated with an increased risk of cardiovascular diseases and type 2 diabetes. The project involves data preprocessing, feature engineering, and the implementation of multiple machine learning models to classify individuals as having or not having the syndrome.
+
+## Key Features
+- **Data Preprocessing:** Handles missing values, encodes categorical variables, and scales numerical features.
+- **Model Implementation:** Includes K-Nearest Neighbors (KNN), Decision Tree, Logistic Regression, Random Forest, and Support Vector Classifier (SVC).
+- **Hyperparameter Tuning:** Uses `GridSearchCV` and `RandomizedSearchCV` to optimize model performance.
+- **Evaluation Metrics:** Reports accuracy, precision, recall, and F1-score for each model.
 
 ## Tools and Technologies
-- Python
-- Pandas
-- Scikit-learn
-- NumPy
-
-## How to Run
-1. Clone this repository.
-2. Install the required libraries using `pip install -r requirements.txt`.
-3. Open the Jupyter Notebook `Metabolic_Syndrome_Prediction.ipynb` and run the cells.
+- **Programming Language:** Python
+- **Libraries:** Pandas, NumPy, Scikit-learn
+- **Data Handling:** CSV file input/output
+- **Model Evaluation:** Classification metrics (accuracy, precision, recall, F1-score)
 
 ## Dataset
-The dataset used in this project is `Metabolic Syndrome.csv`.
+The dataset used in this project contains clinical and laboratory measurements such as:
+- Age, Sex, Marital Status, Income, Race
+- Waist Circumference, BMI, Albuminuria, Blood Glucose, HDL, Triglycerides
+- Target Variable: Metabolic Syndrome (1 = Present, 0 = Absent)
 
-## Results
-The best-performing model was Random Forest with an accuracy of 84%.
+## How to Use
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/Metabolic-Syndrome-Prediction.git
