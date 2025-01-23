@@ -23,4 +23,4 @@ The dataset used in this project contains clinical and laboratory measurements s
 ## How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/Metabolic-Syndrome-Prediction.git
+   git clone https://github.com/SoulNaD0/Metabolic-Syndrome-Prediction.git
